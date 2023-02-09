@@ -144,7 +144,7 @@ nav:hover, nav a:focus{
 first div in the grid  and place it in the grid. */
 .container div:first-child{
   grid-column: 1 / -1;
-  background-image: url("/images/header.jpg");
+  background-image: url("../images/header.jpg");
   background-attachment: fixed; /* Parallax effect */     
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
@@ -179,7 +179,7 @@ first div in the grid  and place it in the grid. */
 .about-image, .method-image, .clients-image, .contact-image{
   grid-column: 1 / -1;
   max-height: 600px;
-  /* object-fit: cover; */
+  object-fit: cover;
   width: 100%;
   overflow: hidden;
 }
@@ -217,6 +217,6 @@ first div in the grid  and place it in the grid. */
  /* Step 13:Write the selector/rule property to update the .text-block class */
   .text-block{
     max-height: 250px;
-    overflow: auto; /* or scroll*/
+    overflow: auto;
   }
 }
